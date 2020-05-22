@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ctn{
+    height: 100%;
+    background: url("../img/space.jpg") no-repeat center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ctn-inner{
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%,50%);
+    will-change: transform;
+    transition: transform 1s ease-out;
+}
+
+.astronaute{
+    width: 300px;
+}
